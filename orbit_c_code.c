@@ -29,7 +29,7 @@ int main() {
     FILE *f = fopen("orbit.csv", "w");
     if (f==NULL) {
         printf("\nError: could not create orbit.csv\n")
-        return 1 //exit with error code
+        return 1; //exit with error code
     }
 
     fprintf(f, "t    ,      x,      y,      z\n");
